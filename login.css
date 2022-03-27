@@ -1,0 +1,221 @@
+body{
+    background-image: url(library.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/****************************** Navigation Bar *****************************/
+#continer
+{
+    position: absolute;
+    float: left;
+    top: 0px;
+    width: 98%;
+    height: 10%;
+    margin: 0px 15px;
+    padding: 0px;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+#continer .list
+{
+    position: relative;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    list-style: none;
+}
+#continer .list li{
+    display: inline;
+    float: left;
+}
+#continer .list a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 60px;
+    margin: 11px 0px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/******************************************** DropList ************************/
+
+#continer .list .droplist {
+    position: relative;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    list-style: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#continer .list li .droplist li {
+    display: none;
+    float: none;
+}
+#continer .list li:hover .droplist li
+{
+    display: block;
+}
+
+#continer .list li .droplist li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 60px;
+    margin: 11px 0px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/***************************************** Hover *********************************/
+
+#continer .list a:visited
+{
+    background-color: royalblue;
+
+}
+#continer .list a:hover
+{
+    background-color: red;
+}
+
+/************************************** Buttons ***********************************/
+
+.login{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+    width: 160px;
+    height: 45px;
+    top: 20%;
+    left: 76%;
+    background-color: red;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+.signup
+{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+    width: 160px;
+    height: 45px;
+    top: 20%;
+    left: 88%;
+    background-color: red;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+.login a {
+    position: relative;
+    color: white;
+    margin: 0px 0px;
+    padding: 5px 44px;
+    text-decoration: none;
+}
+.signup a{
+    position: relative;
+    color: white;
+    margin: 0px 0px;
+    padding: 5px 29px;
+    text-decoration: none;
+}
+
+button a:hover{
+    color:#33EBFF; 
+}
+
+/********************************* Login Style ************************************/
+
+#logincontent
+{
+    position: absolute;
+    top: 32%;
+    left: 38%;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+label{
+    color: white;
+    font-family:monospace;
+}
+.inputs
+{
+    position: relative;
+    top: 25%;
+    left: 12%;
+    font-size: 20px;
+}
+input{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 5px;
+    font-weight: bold;
+}
+.login2
+{
+    position: absolute;
+    top: 66%;
+    left: 15%;
+    margin: 0;
+    padding: 0;
+    width: 270px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: orange;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.login2 a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    margin: 0px 0px;
+    padding: 6px 91px;
+    text-align: center;
+}
+.footer
+{
+    position: absolute;
+    top: 81%;
+    left: 15%;
+    font-size: 20px;
+    
+
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 2px;
+    margin: 2px;
+    opacity: 0.2;
+}
+.footer a:hover {
+    color:sandybrown;
+    opacity: 1;
+}
